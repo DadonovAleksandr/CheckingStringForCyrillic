@@ -1,9 +1,3 @@
-using System.ComponentModel;
-
-namespace Configurator.Alpha
-{
-    public enum TspdInstalPlaceCode
-    {
         [Description("None")]
         None=0,
         [Description("Входной коллектор")]
@@ -96,5 +90,3 @@ namespace Configurator.Alpha
         VihZTUpl,   // Выходной коллектор из торцевого уплотнения со стороны заднего подшипника (44)	
         [Description("Километр")]
         KM          // Километр (45)	
-    }
-}

@@ -1,9 +1,3 @@
-using System.ComponentModel;
-
-namespace Configurator.Alpha
-{
-    public enum TspdParamCode
-    {
         [Description("None")]                           
         None = 0,
         [Description("Давление")]                         
@@ -469,5 +463,3 @@ namespace Configurator.Alpha
         FailAll,                // Неисправность (отказ), общая (231)	
         [Description("Положение, %")] 
         Pos                     // Положение, % (232)	                                                                                            
-    }
-}

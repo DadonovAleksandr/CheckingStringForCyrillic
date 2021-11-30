@@ -1,9 +1,3 @@
-using System.ComponentModel;
-
-namespace Configurator.Alpha
-{
-    public enum TspdGroupParamCode
-    {
         [Description("None")]
         None = 0,
         [Description("Защита")]
@@ -206,5 +200,3 @@ namespace Configurator.Alpha
         Sost,       // Состояние (99)
         [Description("Группа сигналов для состояний")]
         State       // Группа сигналов для состояний (100)
-    }
-}
